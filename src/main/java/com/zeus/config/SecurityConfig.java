@@ -18,8 +18,8 @@ import com.zeus.common.security.CustomLoginSuccessHandler;
 import jakarta.servlet.DispatcherType;
 import lombok.extern.slf4j.Slf4j;
 
-@Configuration
-@EnableWebSecurity
+@Configuration	//2번설정
+@EnableWebSecurity //1번설정
 @Slf4j
 public class SecurityConfig {
 
